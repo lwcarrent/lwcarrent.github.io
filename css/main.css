@@ -175,5 +175,20 @@ body {
         font-size: 150px;
     }
   }
+  
+  <!-- CSS for putting text block on images  -->
+  
+ .image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
 
+h2a { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+<!-- end of CSS for putting text block on images -->
   
