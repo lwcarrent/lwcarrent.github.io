@@ -520,9 +520,9 @@ As such, our staff are dedicated to serving you day and night 24 hours a day, se
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwziw4qYxU_k27L_M_5WZE-AMr-fp1rx0&callback=initialize"
   type="text/javascript"></script>
 <script>
-var myCenter = new google.maps.LatLng(4.9107574, 114.9239002);
 
-function initialize() {
+
+function initialize() { var myCenter = new google.maps.LatLng(4.9107574, 114.9239002);
 var mapProp = {
   center:myCenter,
   zoom:12,
@@ -540,7 +540,7 @@ var marker = new google.maps.Marker({
 marker.setMap(map);
 }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+
 </script>
 
 <footer class="container-fluid text-center">
